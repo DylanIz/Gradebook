@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F812FAD6-F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradeBook.Tests", "test\GradeBook.Tests\GradeBook.Tests.csproj", "{7910636E-4E69-4CFA-96E1-09ACEA0B6BFF}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{D21A73B2-F2A5-4BB1-8F7C-92B7FC5C277A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D21A73B2-F2A5-4BB1-8F7C-92B7FC5C277A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21A73B2-F2A5-4BB1-8F7C-92B7FC5C277A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DABFB6-6B5B-4DBA-A288-D9C27E3413CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{73DABFB6-6B5B-4DBA-A288-D9C27E3413CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DABFB6-6B5B-4DBA-A288-D9C27E3413CA}.Release|Any CPU.ActiveCfg = Release|Any CPU

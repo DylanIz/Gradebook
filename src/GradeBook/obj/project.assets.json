@@ -1,38 +1,38 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {}
+    "C:\\Users\\DDrumgoole\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "C:\\Users\\Dylan\\gradebook\\src\\GradeBook\\GradeBook.csproj",
-      "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\gradebook\\src\\GradeBook\\obj\\",
+      "projectPath": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\src\\GradeBook\\GradeBook.csproj",
+      "packagesPath": "C:\\Users\\DDrumgoole\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\src\\GradeBook\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DDrumgoole\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -43,8 +43,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

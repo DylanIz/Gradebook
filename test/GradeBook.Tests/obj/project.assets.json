@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net6.0": {
       "coverlet.collector/3.1.2": {
         "type": "package",
         "build": {
@@ -1811,7 +1811,7 @@
       },
       "GradeBook/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
           "bin/placeholder/GradeBook.dll": {}
         },
@@ -6121,7 +6121,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net6.0": [
       "GradeBook >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
       "coverlet.collector >= 3.1.2",
@@ -6130,34 +6130,34 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dylan\\.nuget\\packages\\": {}
+    "C:\\Users\\DDrumgoole\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dylan\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "C:\\Users\\Dylan\\gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
-      "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dylan\\gradebook\\test\\GradeBook.Tests\\obj\\",
+      "projectPath": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "packagesPath": "C:\\Users\\DDrumgoole\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\test\\GradeBook.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DDrumgoole\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Dylan\\gradebook\\src\\GradeBook\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\Dylan\\gradebook\\src\\GradeBook\\GradeBook.csproj"
+            "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\src\\GradeBook\\GradeBook.csproj": {
+              "projectPath": "C:\\Users\\DDrumgoole\\Documents\\GitHub\\Gradebook\\src\\GradeBook\\GradeBook.csproj"
             }
           }
         }
@@ -6169,8 +6169,8 @@
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -6209,7 +6209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
