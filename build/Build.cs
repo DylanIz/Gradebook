@@ -24,6 +24,16 @@ class Build : NukeBuild
     [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
     readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
 
+    void RunUnitTests(string TypeTests)
+    {
+        // Use NUnit framework to execute tests for the specified class
+        var testAssembly = typeof(TypeTests).Assembly;
+        var testRunner = new NUnit.ConsoleRunner.ConsoleRunner();
+        var args = new[] { testAssembly.Location, "--where", $"class={TypeTests}" };
+        testRunner.Execute(args);
+    }
+
+
     Target Clean => _ => _
         .Before(Restore)
         .Executes(() =>
@@ -33,6 +43,7 @@ class Build : NukeBuild
     Target Restore => _ => _
         .Executes(() =>
         {
+            
         });
 
     Target Compile => _ => _
@@ -41,4 +52,11 @@ class Build : NukeBuild
         {
         });
 
+    Target TypeTests => _ => _
+        .Executes(() =>
+        {
+            RunUnitTests("TypeTests");
+        });
+
+    
 }
